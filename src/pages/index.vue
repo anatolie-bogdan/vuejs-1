@@ -1,14 +1,14 @@
 <template>
   <div>
-    <span class="mr-3">Стартовая страница</span>
+    <span class="mr-3">Home page</span>
 
     <router-link 
       to="/add" 
       class="mr-3">
-      Добавить пользователя
+      Add User
     </router-link>
     <router-link to="/users">
-      Открыть список пользователей
+      Open User List
     </router-link>
   </div>
 </template>
