@@ -26,7 +26,7 @@
             active-class="active">
             <a 
               class="nav-link" 
-              href="#">Главная</a>
+              href="#">Home</a>
           </router-link>
           <router-link 
             tag="li" 
@@ -35,7 +35,7 @@
             active-class="active">
             <a 
               class="nav-link" 
-              href="#">Список пользователей</a>
+              href="#">User List</a>
           </router-link>
           <router-link 
             tag="li" 
@@ -44,7 +44,7 @@
             active-class="active">
             <a 
               class="nav-link" 
-              href="#">Добавить пользователя</a>
+              href="#">Add User</a>
           </router-link>
         </ul>
       </div>
