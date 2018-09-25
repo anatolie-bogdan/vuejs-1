@@ -1,4 +1,4 @@
-<!-- Компонент таблицы -->
+<!-- Table component -->
 
 <template>
   <div class="card">
@@ -8,7 +8,7 @@
         class="float-right btn btn-sm btn-primary btn-outline"
         @click="loadData">
         <i :class="['fa fa-fw fa-refresh', loading ? 'fa-spin' : '']"/>
-        Обновить таблицу
+        Refresh table
       </button>
       {{ title }} &ndash; {{ totalRows }}
     </div>
@@ -20,7 +20,7 @@
         </div>
         <div class="col-md-4">
           <p class="form-control-static">
-            Выбрано элементов на страницу {{ rowsPerPage }}
+            Users per page {{ rowsPerPage }}
           </p>
         </div>
       </div>
@@ -43,7 +43,7 @@
       </table>
 
       <div class="form-group">
-        <strong>Выбрана страница {{ selectedPage }}</strong>
+        <strong>Page {{ selectedPage }}</strong>
         <rows-paginator
           v-model.number="selectedPage"
           :per-page="rowsPerPage"

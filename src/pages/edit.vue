@@ -6,7 +6,7 @@
       v-if="!user"
       class="alert alert-warning">
       <i class="fa fa-refresh fa-spin"/>
-      Загрузка
+      Loading
     </div>
     <div
       v-else
@@ -26,14 +26,14 @@
               type="button"
               class="btn btn-success"
               @click="save">
-              Сохранить изменения
+              Save changes
             </button>
 
             <button
               type="button"
               class="btn btn-danger"
               @click="remove">
-              Удалить пользователя
+              Delete user
             </button>
           </div>
         </user-form>
