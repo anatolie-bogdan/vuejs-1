@@ -14,7 +14,7 @@
           @change="upload" >
         <button
           class="btn btn-primary btn-block"
-          @click="selectNewImage">Выбрать новую</button>
+          @click="selectNewImage">Upload avatar</button>
       </div>
       <div class="col-md-10">
         <input

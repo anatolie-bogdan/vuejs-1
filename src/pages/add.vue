@@ -4,10 +4,10 @@
   <div class="card">
     <div class="card-header">
       <span class="pull-right">
-        Новый пользователь
+        New user
       </span>
 
-      Пользователь
+      User
     </div>
     <div class="card-body">
 
@@ -18,7 +18,7 @@
             class="btn btn-success"
             @click="save"
           >
-            Создать пользователя
+            Create new user
           </button>
         </div>
       </user-form>

@@ -23,7 +23,7 @@
     <div
       class="form-group"
       :class="{ 'has-error': errors.has('lastName') }">
-      <label>Фамилия</label>
+      <label>Last Name</label>
       <input
         type="text"
         class="form-control"
@@ -55,12 +55,12 @@
     </div>
 
     <div class="form-group">
-      <label>URL картинки</label>
+      <label>Image URL</label>
       <avatar-uploader v-model="localUser.picture" />
     </div>
 
     <div class="form-group">
-      <label>Возраст</label>
+      <label>Age</label>
       <input
         type="number"
         class="form-control"
@@ -68,7 +68,7 @@
     </div>
 
     <div class="form-group">
-      <label>Активный</label>
+      <label>Active</label>
       <div class="checkbox-inline">
         <input
           type="checkbox"
@@ -77,7 +77,7 @@
     </div>
 
     <div class="form-group">
-      <label>Уровень доступа</label>
+      <label>Access level</label>
       <select
         class="form-control"
         v-model="localUser.accessLevel">
@@ -90,7 +90,7 @@
     </div>
 
     <div class="form-group">
-      <label>Баланс</label>
+      <label>Balance</label>
       <input
         type="text"
         class="form-control"
@@ -98,7 +98,7 @@
     </div>
 
     <div class="form-group">
-      <label>Телефон</label>
+      <label>Phone</label>
       <input
         type="text"
         class="form-control"
@@ -106,7 +106,7 @@
     </div>
 
     <div class="form-group">
-      <label>Адрес</label>
+      <label>Address</label>
       <input
         type="text"
         class="form-control"
@@ -114,7 +114,7 @@
     </div>
 
     <div class="form-group">
-      <label>Компания</label>
+      <label>Company name</label>
       <input
         type="text"
         class="form-control"
@@ -122,12 +122,12 @@
     </div>
 
     <div class="form-group">
-      <label>Биография</label>
+      <label>Bio</label>
       <rich-editor v-model="localUser.about" />
     </div>
 
     <div class="form-group">
-      <label>Дата регистрации</label>
+      <label>Registration date</label>
       <datepicker v-model="localUser.registered"/>
     </div>
 
