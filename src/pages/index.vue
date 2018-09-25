@@ -1,8 +1,10 @@
 <template>
   <div>
-    Стартовая страница
+    <span class="mr-3">Стартовая страница</span>
 
-    <router-link to="/add">
+    <router-link 
+      to="/add" 
+      class="mr-3">
       Добавить пользователя
     </router-link>
     <router-link to="/users">

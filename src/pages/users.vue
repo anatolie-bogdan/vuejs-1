@@ -1,19 +1,19 @@
 <template>
   <div>
-    <h2>Список пользователей</h2>
+    <h2>Users List</h2>
 
     <user-list
-      title="Пользователей в базе"
+      title="Total number of users"
       :url="url">
       <tr slot="header">
         <th>#</th>
-        <th>Имя</th>
-        <th>Фамилия</th>
-        <th>Активен</th>
-        <th>Баланс</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Active</th>
+        <th>Balance</th>
         <th>Email</th>
-        <th>Телефон</th>
-        <th>Зарегистрирован</th>
+        <th>Phone</th>
+        <th>Registered</th>
       </tr>
       <template
         slot="row"
